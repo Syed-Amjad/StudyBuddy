@@ -4,7 +4,7 @@ import streamlit as st
 from datetime import datetime
 
 # Set up the environment for the Groq API key
-os.environ['GROQ_API_KEY'] = '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'
+os.environ['GROQ_API_KEY'] = 'Groq Api Key'
 
 # Initialize the Groq client
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
